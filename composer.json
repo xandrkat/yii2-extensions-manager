@@ -1,5 +1,5 @@
 {
-  "name": "devgroup/yii2-extensions-manager",
+  "name": "xandrkat/yii2-extensions-manager",
   "description": "Manage and install your yii2 extensions in browser!",
   "type": "yii2-extension",
   "keywords": [
@@ -26,7 +26,7 @@
   "require": {
     "yiisoft/yii2": "^2.0.6",
     "devgroup/yii2-tag-dependency-helper": "~1.5",
-    "devgroup/yii2-deferred-tasks": "*",
+    "xandrkat/yii2-deferred-tasks": "*",
     "devgroup/yii2-admin-utils": "*",
     "dmstr/yii2-migrate-command": "^0.3.1",
     "knplabs/packagist-api": "*",
