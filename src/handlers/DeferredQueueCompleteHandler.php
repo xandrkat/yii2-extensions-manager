@@ -6,9 +6,9 @@ use DevGroup\DeferredTasks\events\DeferredQueueCompleteEvent;
 use DevGroup\DeferredTasks\models\DeferredGroup;
 use DevGroup\ExtensionsManager\helpers\ExtensionFileWriter;
 use DevGroup\ExtensionsManager\ExtensionsManager;
-use yii\base\Object;
+use yii\base\BaseObject;
 
-class DeferredQueueCompleteHandler extends Object
+class DeferredQueueCompleteHandler extends BaseObject
 {
     /**
      * @param DeferredQueueCompleteEvent $event
